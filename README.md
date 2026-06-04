@@ -3,7 +3,7 @@
 ### Common Commands:
 
 ```
-echo 'source /opt/ros/jazzy/setup.bash' >> ~/.bash.rc
+echo 'source /opt/ros/jazzy/setup.bash' >> ~/.bashrc
 source ~/.bash.rc
 ```
 
