@@ -1,0 +1,18 @@
+# ROS 2 generated folders
+**/build/
+**/install/
+**/log/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Snap/system/user files
+snap/
+
+# Editor/OS files
+.vscode/
+.DS_Store
+
+opencr_update/
+opencr_update.tar.bz2
