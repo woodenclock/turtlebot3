@@ -79,7 +79,9 @@ Change Reliability Policy in LaserScan to "Best Effort".
 ros2 topic echo /battery_state --once
 ```
 
-#### Camera: (install usb_cam)
+#### Camera:
+
+install usb_cam first.
 ```
 ros2 run usb_cam usb_cam_node_exe --ros-args
 -p video_device:=/dev/video0
@@ -96,5 +98,10 @@ sudo ./container.sh start
 sudo ./container.sh enter
 
 root@turtlebot3:~# ros2 launch turtlebot3_bringup robot.launch.py
+```
+
+#### SLAM (Simultaneous Localization and Mapping):
+```
+ros2 launch turtlebot3_cartographer cartographer.launch.py
 ```
 
