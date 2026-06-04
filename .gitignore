@@ -3,16 +3,20 @@
 **/install/
 **/log/
 
+# OpenCR firmware/update files copied on robot
+opencr_update/
+opencr_update.tar.bz2
+
 # Python cache
 __pycache__/
 *.pyc
+*.pyo
 
-# Snap/system/user files
-snap/
+# Colcon / test artifacts
+.coverage
+.pytest_cache/
 
-# Editor/OS files
+# OS/editor files
 .vscode/
+.idea/
 .DS_Store
-
-opencr_update/
-opencr_update.tar.bz2
