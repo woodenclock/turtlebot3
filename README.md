@@ -81,7 +81,12 @@ ros2 topic echo /battery_state --once
 
 #### Camera: (install usb_cam)
 ```
-ros2 run usb_cam usb_cam_node_exe --ros-args \  -p video_device:=/dev/video0 \  -p image_width:=320 \  -p image_height:=240 \  -p framerate:=5.0 \  -p pixel_format:=yuyv2rgb
+ros2 run usb_cam usb_cam_node_exe --ros-args
+-p video_device:=/dev/video0
+-p image_width:=320
+-p image_height:=240
+-p framerate:=5.0
+-p pixel_format:=yuyv2rgb
 ```
 
 #### Docker:
